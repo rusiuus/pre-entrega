@@ -4,11 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto | Transportes Santa Margarita</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
-    <header>
-        <h1>Transportes Santa Margarita</h1>
-        <nav>
+    <header class="encabezado-principal">
+        <h1 class="titulo-sitio">Transportes Santa Margarita</h1>
+        <nav class="menu-navegacion">
              <ul>
                 <li><a href="../index.html">Inicio</a></li>
                 <li><a href="cobertura.html">Cobertura y Rutas</a></li>
@@ -19,30 +25,30 @@
         </nav>
     </header>
 
-    <main>
-        <section>
+    <main class="contenedor-principal">
+        <section class="tarjeta-logistica">
             <h2>Contacto y Cotizaciones</h2>
             <p>Póngase en contacto con nuestro departamento de logística para recibir un presupuesto personalizado para sus fletes o resolver cualquier duda operativa.</p>
         </section>
 
-        <section>
+        <section class="tarjeta-logistica">
             <h3>Formulario de contacto</h3>
-            <form action="#" method="post">
+            <form action="#" method="post" class="formulario-operaciones">
                 
-                <p>Nombre: <input type="text" name="nombre" required></p>
+                <p class="campo-texto">Nombre: <input type="text" name="nombre" required></p>
 
-                <p>Correo: <input type="email" name="correo" required></p>
+                <p class="campo-texto">Correo: <input type="email" name="correo" required></p>
 
-                <p>Mensaje: <textarea name="mensaje" required></textarea></p>
+                <p class="area-mensaje">Mensaje: <textarea name="mensaje" required></textarea></p>
 
-                <p><input type="submit" value="Enviar"></p>
+                <p><input type="submit" value="Enviar" class="boton-formulario"></p>
                 
             </form>
         </section>
 
-        <section>
+        <section class="tarjeta-logistica">
             <h2>Nuestros datos informativos</h2>
-             <ul>
+             <ul class="lista-beneficios">
                 <li>Dirección Comercial: Avenida Central del Transporte #450.</li>
                 <li>Teléfono Central: +56 9 1234 5678</li>
                 <li>Correo Electrónico: transportessantamargarita@gmail.com</li>
@@ -50,9 +56,9 @@
         </section>
     </main>
 
-    <footer>
+    <footer class="pie-pagina">
          <p>&copy; 2026 Transportes Santa Margarita. Todos los derechos reservados.</p>
-        <ul>
+        <ul class="redes-sociales">
             <li><a href="https://facebook.com" target="_blank">Facebook</a></li>
             <li><a href="https://instagram.com" target="_blank">Instagram</a></li>
         </ul>
